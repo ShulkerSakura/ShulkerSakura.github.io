@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "MCF";
+    src: url("../fonts/MINECRAFT.woff");
+}
+
+.center {
+    text-align: center;
+}
+
+.MCF {
+    font-family: "MCF";
+}
+
+.header-logo .logo {
+    font-family: "MCF";
+    color: white;
+    display: inline-block;
+    margin-right: 16px;
+    font-size: 24px;
+    margin-top: 23px;
+    font-weight: 400;
+    transition-duration: 0.25s;
+}
+
+.header-logo {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+    background: gray;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-logo .logo:hover {
+    font-size: 25px;
+    transition-duration: 0.25s;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
