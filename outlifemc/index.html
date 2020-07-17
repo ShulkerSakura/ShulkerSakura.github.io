@@ -1,0 +1,236 @@
+<!--OutLife Tech Group-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, Chrome=1" />
+    <!-- 简介 -->
+    <meta name="description" content="OutLife Minecraft Server" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="OutLife, outlife, minecraft, server, 1.16.1, 我的世界, 服务器, 新版本, 红石, 生电, 原版" />
+    <title>OutLife Minecraft Server</title>
+    <link rel="stylesheet" href="https://cdn.zerodream.net/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.zerodream.net/font-awesome/css/font-awesome.min.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdn.zerodream.net/css/animate.3.7.min.css" />
+    <link rel="stylesheet" href="https://cdn.zerodream.net/css/zerodream.net.min.css?s=4" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="logo">
+        <div class="header-logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h2 class="logo fadeInLeft animated"><a href="/#">OutLife</a></h2>
+                        <div class="menu">
+                            <div class="menunav fadeInDown animated">
+                                <div class="hiddenonpc">
+                                    <h3>Menu</h3>
+                                    <a href="#" onclick="shownav()"><i class="fa fa-angle-right"></i></a>
+                                </div>
+                                <a href="/#" class="item">MainPage</a>
+                                <a href="https://afdian.net/@Shulker" class="item">Donate</a>
+                                <!--<a href="/screenshots" class="item">截图</a>
+								<a href="/download" class="item">客户端</a>
+								<a href="/faq" class="item">FAQ</a>
+								<a href="/playerdata" class="item">查询</a>
+								<a href="/livechat" class="item">聊天</a>-->
+                                <a href="http://jp-gc-1gbps.16lab.io:8192" target="_blank" class="item">Dynmap</a>
+                                <!--<a href="https://www.zerobbs.net/" target="_blank" class="item">论坛</a>
+								<a href="/about" class="item">关于</a>-->
+                            </div>
+                            <a href="#" class="item" id="shownav" onclick="shownav()"><i class="fa fa-navicon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-bannar" onclick="hidenav()">
+            <div class="backgrounds">
+                <!-- 首页幻灯片背景图 -->
+                <!-- 格式：<div class="img" style="background: url(图片地址);"></div> 每行一条-->
+                <div class="img" style="background: url(images/banner_bg3.webp);background-size: cover;"></div>
+                <div class="img" style="background: url(images/banner_bg1.webp);background-size: cover;display: none;"></div>
+                <div class="img" style="background: url(images/banner_bg2.webp);background-size: cover;display: none;"></div>
+            </div>
+            <div class="shadow"></div>
+            <div class="inbox">
+                <div class="inbox2">
+                    <!-- 大 Logo 文字 -->
+                    <h2 class="line1 bounceInDown animated">OutLife</h2>
+                    <!-- 副标题 -->
+                    <p class="line2 bounceInLeft animated delay-h5s">A Free & Technical Minecraft Server</p>
+                    <div class="joinbtn">
+                        <!-- 第一个按钮 -->
+                        <a href="https://jq.qq.com/?_wv=1027&k=vM3B05yV"><button class="jbtn bounceInLeft animated delay-1h5s">QQ Group</button></a>
+                        <!-- 第二个按钮 -->
+                        <a href="https://ks.wjx.top/jq/71105344.aspx"><button class="jbtn bounceInLeft animated delay-2s">Quality Test</button></a>
+                        <!-- 第三个按钮 --><a href="https://discord.gg/YG3DF4B"><button class="jbtn bounceInLeft animated delay-2h5s">Discord</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="body-part1">
+            <div class="frame">
+                <!-- 第一个介绍部分 -->
+                <div class="cont-1 fadeInLeft animated">
+                    <h1><i class="fa fa-lightbulb-o"></i></h1>
+                    <h3>Redstone Tech</h3>
+                    <p>We design and manufacture</p>
+                    <p>high-quality redstone systems.</p>
+                </div>
+                <!-- 第二个介绍部分 -->
+                <div class="cont-3 fadeInRight animated">
+                    <h1><i class="fa
+ fa-heart-o"></i></h1>
+                    <h3>Hardcore</h3>
+                    <p>We welcome high-tech</p>
+                    <p>hardcore play ers.
+                    </p>
+                </div>
+                <!-- 第三个介绍部分 -->
+                <div class="cont-2">
+                    <h1><i class="fa
+ fa-tv"></i></h1>
+                    <h3>Player Quality</h3>
+                    <p>We guarantee the quality</p>
+                    <p>of all players who pass the test.</p>
+                </div>
+            </div>
+        </div>
+        <div class="body-part2 text-center">
+            <!-- 视频介绍 标题 -->
+            <h1 class="link-title fadeInLeft animated">Video Introduction</h1>
+            <!-- 视频介绍 副标题 -->
+            <p class="link-subtitle fadeInRight animated">Only one video takes you through our server.</p>
+            <div class="playvideo fadeInUp animated">
+                <i class="fa fa-play-circle-o"></i>
+            </div>
+            <div class="hidden-player"></div>
+        </div>
+        <div class="body-part3">
+            <!-- 相关链接 标题 -->
+            <h1 class="link-title fadeInRight animated">Functions</h1>
+            <!-- 相关链接 副标题 -->
+            <p class="link-subtitle fadeInLeft animated">Check it out?</p>
+            <div class="link cont-1 fadeInUp animated">
+                <a href="http://oleula.mysxl.cn" target="_blank">
+                    <h1><i class="fa fa-book"></i></h1>
+                    <h3>EULA</h3>
+                    <p>OutLife End User</p>
+                    <p>Licence Agreement</p>
+                </a>
+            </div>
+            <div class="link cont-2 fadeInUp animated delay-h5s">
+                <a href="http://jp-gc-1gbps.16lab.io:8192" target="_blank">
+                    <h1><i class="fa fa-globe"></i></h1>
+                    <h3>DynMap</h3>
+                    <p>Check our satellite map!</p>
+                    <p>&nbsp</p>
+                </a>
+            </div>
+            <div class="link cont-3 fadeInUp animated delay-1s">
+                <a href="/sup.html" target="_blank">
+                    <h1><i class="fa fa-comments"></i></h1>
+                    <h3>Support</h3>
+                    <p>Tech Support</p>
+                    <p>&nbsp</p>
+                </a>
+            </div>
+        </div>
+        <!-- 底部版权 -->
+        <div class="footer">
+            <p>Copyright &copy; 2020 OutLife Tech Group</p>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="https://cdn.zerodream.net/js/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.zerodream.net/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    var showmenu = false;
+    $(document).scroll(function() {
+        var sctop = window.screen.availHeight - 160;
+        if ($(this).scrollTop() > sctop) {
+            $(".header-logo").css({
+                "background": "#FFFFFF",
+                "color": "#333333",
+                "box-shadow": "0px 0px 8px rgba(0,0,0,0.2)"
+            });
+            $(".header-logo .logo a").css({
+                "color": "#333333"
+            });
+            $(".header-logo .menu .item").css({
+                "color": "#333333"
+            });
+        } else {
+            $(".header-logo").css({
+                "background": "rgba(0,0,0,0)",
+                "color": "#FFFFFF",
+                "box-shadow": "0px 0px 0px rgba(0,0,0,0)"
+            });
+            $(".header-logo .menu .item").css({
+                "color": "#FFFFFF"
+            });
+            $(".header-logo .logo a").css({
+                "color": "#FFFFFF"
+            });
+        }
+    });
+
+    function hidenav() {
+        $(".header-logo .menunav").css({
+            "left": "100vw"
+        });
+        showmenu = false;
+    }
+
+    function shownav() {
+        if (showmenu) {
+            $(".header-logo .menunav").css({
+                "left": "100vw"
+            });
+            showmenu = false;
+        } else {
+            $(".header-logo .menunav").css({
+                "left": "0vw"
+            });
+            showmenu = true;
+        }
+    } /*var _zdt = _zdt || [];(function() {var zd = document.createElement("script");zd.src = "https://api.zerodream.net/v1/webasync";var ds = document.getElementsByTagName("script")[0];ds.parentNode.insertBefore(zd, ds);})();*/
+</script>
+<script type="text/javascript">
+    $(".playvideo").on('click', function() {
+        $(".playvideo").fadeOut();
+        setTimeout(function() {
+            $(".hidden-player").fadeIn();
+            // B站播放器 iframe 内容写在这里
+            $(".hidden-player").html('<iframe class="bilibili-player" src="//player.bilibili.com/player.html?aid=837904850&bvid=BV14g4y1z7YD&cid=182708678&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>');
+        }, 250);
+    });
+    var currentImg = 0;
+    var maxImgNum = $(".backgrounds .img").length;
+    setInterval(function() {
+        var nowImg = $($(".backgrounds .img")[currentImg]);
+        var nextImg;
+        try {
+            nextImg = $($(".backgrounds .img")[currentImg + 1]);
+            currentImg++;
+        } catch (e) {
+            nextImg = $($(".backgrounds .img")[0]);
+            currentImg = 0;
+        }
+        if (currentImg >= maxImgNum) {
+            nextImg = $($(".backgrounds .img")[0]);
+            currentImg = 0;
+        }
+        nowImg.fadeOut();
+        nextImg.fadeIn();
+    }, 5000);
+</script>
+
+</html>

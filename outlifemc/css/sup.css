@@ -1,0 +1,11 @@
+@font-face {
+font-family:'Minecraft';
+src: url('../fonts/MINECRAFT.eot');             src: url('../fonts/MINECRAFT.eot#iefix') format('embedded-opentype'),                                    url('../fonts/MINECRAFT.woff') format('woff'),
+                 url('../fonts/MINECRAFT.woff2') format('woff2'),                                                url('../fonts/MINECRAFT.ttf') format('truetype'),
+                 url('../fonts/MINECRAFT.svg#webfont34M5alKg') format('svg');                           font-weight: normal;                            font-style: normal;                     }                                             
+
+
+.text{
+    font-family: 'Minecraft';
+text-shadow: 0px 0px 0.5px lightgrey;
+} 
